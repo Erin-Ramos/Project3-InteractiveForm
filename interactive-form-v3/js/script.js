@@ -98,7 +98,10 @@ paymentSelect.addEventListener("change", () => {
 });
 
 // form validation
-
+/* 
+this is mostly copied and pasted from the form validation workspace that I did
+with some adjustments made to match the id's and names in this project
+*/
 const form = document.getElementById("form-hint");
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
