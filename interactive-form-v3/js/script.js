@@ -128,7 +128,7 @@ const activitiesInput = document.querySelector("#activities");
 const activitiesHint = document.querySelector("#activities-hint");
 
 // validation functions
-const isValidName = () => /^[A-za-z\s]+$/.test(nameInput.value);
+const isValidName = () => /^[A-Za-z]{1,}[A-Za-z\s]*$/.test(nameInput.value);
 const isValidEmail = () => /^[^@]+@[^@.]+\.[a-z]+$/i.test(emailInput.value);
 const isValidCc = () => /^\d{13,16}$/.test(ccInput.value);
 const isValidZip = () => /^\d{5}$/.test(zipInput.value);
